@@ -1,4 +1,35 @@
 .parallax-window {
-    min-height: 250px;
+    min-height: 500px;
     background: transparent;
+}
+
+body {
+    width: 100%;
+    background-color: #f7f7f7;
+    font-family: "Source Sans Pro","Arial","sans-serif";
+    color: #333333;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: "Droid Serif","serif";
+    font-style: italic;
+    color: #ffffff;
+}
+
+h3 {
+    font-style: bold;
+}
+
+.main {
+    width: 100%;
+    align-content: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
 }
