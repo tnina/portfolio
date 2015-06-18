@@ -3,22 +3,65 @@
     background: transparent;
 } */
 
-body {
+
+/* Font Google - strong reaload time */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
+
+body{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    -webkit-font-smoothing: subpixel-antialiased!important;
+    background-color: #f3f3f3;
+    color: #000066;
+    font-weight:400;
+    height:100%;
+    padding: 0;
+}
+
+a{
+    text-decoration:none;
+    outline:none;
+    font-size:14px;
+    color: #ffffff;
+}
+
+h1{
+  font-size:34px;
+  color: #ffffff;
+  font-weight:400;
+  letter-spacing:2px;
+  line-height:1.2;
+}
+
+h1 span{
+    font-weight:800;
+    letter-spacing:12px;
+}
+
+p{
+  letter-spacing:1px;
+  margin-top:40px;
+}
+
+
+/* body {
     width: 100%;
     background-color: #f3f3f3;
     font-family: "Source Sans Pro","Arial","sans-serif";
     color: #000066;
     padding: 0;
-}
+}  
 
 h1 {
     font-weight: bold;
     color: #ffffff;
-}
+}  */
 
 h2 {
-    font-family: "Source Sans Pro","Arial","sans-serif";
     color: #ffffff;
+    font-size:24px;
+    letter-spacing:2px;
 }
 
 h3 {
@@ -28,7 +71,7 @@ h3 {
 .main {
     padding-top: 140px;
     width: 100%;
-    height: 600px;
+    height: 800px;
     align-content: center;
     vertical-align: middle;
     display: inline-block;
@@ -133,6 +176,7 @@ h3 {
 
 .footer {
     background-color: #000000;
+    color: #ffffff;
     padding-top: 30px;
     width: 100%;
     height: 100px;
